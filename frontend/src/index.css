@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-on-secondary-fixed-variant: #4d5d73;
+  --color-tertiary-container: #e8ddff;
+  --color-on-background: #2a3439;
+  --color-on-primary-fixed: #1d3989;
+  --color-primary: #4059aa;
+  --color-primary-dim: #334d9d;
+  --color-on-primary-fixed-variant: #3d57a7;
+  --color-surface-tint: #4059aa;
+  --color-surface-container-highest: #d9e4ea;
+  --color-on-primary: #f8f7ff;
+  --color-error: #9e3f4e;
+  --color-inverse-surface: #0b0f10;
+  --color-error-dim: #4f0116;
+  --color-background: #f7f9fb;
+  --color-secondary: #506076;
+  --color-secondary-container: #d3e4fe;
+  --color-on-secondary-fixed: #314055;
+  --color-surface-dim: #cfdce3;
+  --color-outline: #717c82;
+  --color-outline-variant: #a9b4b9;
+  --color-surface-container-low: #f0f4f7;
+  --color-secondary-fixed-dim: #c5d6f0;
+  --color-on-error-container: #782232;
+  --color-surface: #f7f9fb;
+  --color-secondary-dim: #44546a;
+  --color-tertiary: #625b77;
+  --color-on-tertiary-container: #554e69;
+  --color-on-tertiary-fixed: #423b56;
+  --color-on-secondary: #f7f9ff;
+  --color-primary-container: #dce1ff;
+  --color-tertiary-fixed-dim: #dacff0;
+  --color-on-primary-container: #334c9d;
+  --color-surface-container-lowest: #ffffff;
+  --color-secondary-fixed: #d3e4fe;
+  --color-on-tertiary-fixed-variant: #5f5773;
+  --color-surface-variant: #d9e4ea;
+  --color-primary-fixed: #dce1ff;
+  --color-tertiary-fixed: #e8ddff;
+  --color-on-secondary-container: #435368;
+  --color-inverse-primary: #8fa7fe;
+  --color-inverse-on-surface: #9a9d9f;
+  --color-primary-fixed-dim: #c9d3ff;
+  --color-surface-bright: #f7f9fb;
+  --color-tertiary-dim: #564f6a;
+  --color-on-tertiary: #fdf7ff;
+  --color-on-surface-variant: #566166;
+  --color-surface-container-high: #e1e9ee;
+  --color-error-container: #ff8b9a;
+  --color-on-error: #fff7f7;
+  --color-on-surface: #2a3439;
+  --color-surface-container: #e8eff3;
+
+  --font-headline: "Manrope", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
