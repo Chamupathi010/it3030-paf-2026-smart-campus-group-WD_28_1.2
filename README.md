@@ -37,6 +37,7 @@
         security = auth stuff
         exception = error handling
         enums = fixed values
+
 ### Example
     Let’s say user opens notifications page.
 
@@ -54,3 +55,10 @@
     maybe returns NotificationResponseDto.java
 
     That’s why folders are separated.
+
+## Current temporary visual flow
+    - frontend/src/App.jsx: added temporary /login-success route for login confirmation. This is a placeholder until the dashboard page is implemented.
+    - frontend/src/pages/LoginSuccess.jsx: shows a visual success screen after sign-in so we can verify login works.
+    - frontend/src/components/SignInCard.jsx: currently validates email/password and posts to backend /api/auth/login, then redirects to /login-success on success.
+    - frontend/src/components/SignUpCard.jsx: validates signup fields and posts to /api/auth/register, including normalized role values for backend enum compatibility.
+    - backend/src/main/java/com/smartcampus/backend/config/SecurityConfig.java: updated CORS/security settings to allow frontend requests to auth endpoints.
